@@ -1,28 +1,40 @@
 # sms-Bomb
 IP Iran behtarin
-# Python Script
+# 🚀 Python Request Tool
 
-A Python-based script that uses HTTP requests, random User-Agent generation, concurrency, and Rich for terminal output and progress visualization.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/YOUR-USERNAME/YOUR-REPOSITORY?style=for-the-badge">
+</p>
 
-## Features
+<p align="center">
+  A Python-based tool built with Requests, Rich, Fake UserAgent and concurrent execution.
+</p>
 
-- HTTP request handling with `requests`
-- Random User-Agent generation
-- Concurrent execution using ThreadPoolExecutor
-- Retry support with `urllib3`
-- Beautiful terminal output using `Rich`
-- Configurable request delay and timeout
-- Multi-threaded execution
+---
 
-## Requirements
+## ✨ Features
 
-- Python 3.10 or newer
-- pip
+- ⚡ Fast concurrent execution
+- 🌐 HTTP request support
+- 🎭 Random User-Agent generation
+- 🔄 Automatic retry handling
+- 📊 Beautiful terminal progress display
+- 🧵 Multi-threading support
+- ⚙️ Configurable timeout and request delay
+- 🖥️ Works on Windows, Linux and macOS
 
-## Installation
+---
 
-### 1. Clone the repository
+# 📦 Installation
+
+## 1. Install Python
+
+First, make sure Python is installed on your computer.
+
+Check your Python version:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-cd YOUR-REPOSITORY
+python --version
