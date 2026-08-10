@@ -48,8 +48,6 @@ API800-Call400APIبله این قدر این ابزاره
 pip install requests fake-useragent rich urllib3
 
 
-
-
-
-###رای ران کردنشم رازمه اون کتابخونه ها دانلود کنید اون کامند بزنید داخل Cmdو بعدشم برای ران فایل باید یه cmd به محل جایی که فایل فرار داره باز کنید و اینو بزنید (البته اگه اسم فایل عوض نکرده باشید.)
+#Baray Run karan akhel CMD bezam
+ 
  python SMS.py
