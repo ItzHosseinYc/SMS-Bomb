@@ -1,40 +1,43 @@
-# sms-Bomb
-IP Iran behtarin
-# 🚀 Python Request Tool
+# 🚀 ابزار درخواست‌های همزمان پایتون
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/YOUR-USERNAME/YOUR-REPOSITORY?style=for-the-badge">
-</p>
-
-<p align="center">
-  A Python-based tool built with Requests, Rich, Fake UserAgent and concurrent execution.
-</p>
+یک ابزار قدرتمند برای ارسال درخواست‌های همزمان (Multi-Threaded) با قابلیت نمایش پیشرفت و مدیریت خطاها.
 
 ---
 
-## ✨ Features
-
-- ⚡ Fast concurrent execution
-- 🌐 HTTP request support
-- 🎭 Random User-Agent generation
-- 🔄 Automatic retry handling
-- 📊 Beautiful terminal progress display
-- 🧵 Multi-threading support
-- ⚙️ Configurable timeout and request delay
-- 🖥️ Works on Windows, Linux and macOS
+## 📋 فهرست مطالب
+- [ویژگی‌ها](#-ویژگی‌ها)
+- [پیش‌نیازها](#-پیش‌نیازها)
+- [نصب کتابخانه‌ها](#-نصب-کتابخانه‌ها)
+- [اجرای پروژه](#-اجرای-پروژه)
+- [نمونه کد کامل](#-نمونه-کد-کامل)
+- [رفع اشکالات](#-رفع-اشکالات-رایج)
+- [نکات مهم](#-نکات-مهم)
 
 ---
 
-# 📦 Installation
+## ✨ ویژگی‌ها
 
-## 1. Install Python
+- ⚡ اجرای همزمان درخواست‌ها با `ThreadPoolExecutor`
+- 📊 نمایش پیشرفت با نوار پیشرفت زیبا (Rich)
+- 🎭 تغییر خودکار User-Agent برای جلوگیری از تشخیص
+- 🔄 تلاش مجدد خودکار در صورت خطا (Retry Mechanism)
+- 🛡️ مدیریت خطاهای شبکه و پاسخ‌ها
+- 📈 نمایش آمار و زمان اجرا
+- 🔒 پشتیبانی از Proxy و تنظیمات پیشرفته
 
-First, make sure Python is installed on your computer.
+---
 
-Check your Python version:
+## 📋 پیش‌نیازها
+
+- Python 3.7 یا بالاتر
+- pip (مدیریت بسته‌های پایتون)
+- اتصال به اینترنت برای نصب کتابخانه‌ها
+
+---
+
+## 🔧 نصب کتابخانه‌ها
+
+### روش اول: نصب همه کتابخانه‌ها با یک دستور
 
 ```bash
-python --version
+pip install requests fake-useragent rich urllib3
