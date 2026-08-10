@@ -48,6 +48,6 @@ API800-Call400APIبله این قدر این ابزاره
 pip install requests fake-useragent rich urllib3
 
 
-Baray Run karan akhel CMD bezam
+Baray Run kardan dakhel CMD bezam
  
  python SMS.py
