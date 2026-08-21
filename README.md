@@ -1,53 +1,91 @@
-# این ابزار برای اتک ساخته شده و یه هیچ عنوان لیمیتش بیشتر نکنید.این ابزار بسیار خطرناک هستش.
-به عنوان شوخی خوبه ولی بهترین کارکردش برای نابود کردن-کرش دادن یا هر چیز دیگه است
-از دست کاری لیمیت تایمی و لییمت قدرت بپرهیزید.
-و ممنون میشم یه استار ریز بهمون بدی(کاملا مجازید شخصی سازی کنید)
-API800-Call400APIبله این قدر این ابزاره
-# 🚀 ابزار درخواست‌های همزمان پایتون
+# SMS-Bomb
 
-یک ابزار قدرتمند برای ارسال درخواست‌های همزمان (Multi-Threaded) با قابلیت نمایش پیشرفت و مدیریت خطاها.
+> **Important:** This project is intended only for authorized testing, educational purposes, and environments where you have explicit permission. Do not use it to disrupt, spam, damage, or interfere with other people's services.
 
----
+## Language
 
-## 📋 فهرست مطالب
-- [ویژگی‌ها](#-ویژگی‌ها)
-- [پیش‌نیازها](#-پیش‌نیازها)
-- [نصب کتابخانه‌ها](#-نصب-کتابخانه‌ها)
-- [اجرای پروژه](#-اجرای-پروژه)
-- [نمونه کد کامل](#-نمونه-کد-کامل)
-- [رفع اشکالات](#-رفع-اشکالات-رایج)
-- [نکات مهم](#-نکات-مهم)
+[🇺🇸 English](README.md) | [🇮🇷 فارسی](README_FA.md)
 
 ---
 
-## ✨ ویژگی‌ها
+## Downloads
 
-- ⚡ اجرای همزمان درخواست‌ها با `ThreadPoolExecutor`
-- 📊 نمایش پیشرفت با نوار پیشرفت زیبا (Rich)
-- 🎭 تغییر خودکار User-Agent برای جلوگیری از تشخیص
-- 🔄 تلاش مجدد خودکار در صورت خطا (Retry Mechanism)
-- 🛡️ مدیریت خطاهای شبکه و پاسخ‌ها
-- 📈 نمایش آمار و زمان اجرا
-- 🔒 پشتیبانی از Proxy و تنظیمات پیشرفته
+Choose the version you need:
+
+[![Android Version](https://img.shields.io/badge/Download-Android-success?style=for-the-badge\&logo=android)](../../releases/tag/V1.0.0-Android)
+
+[![Windows EXE](https://img.shields.io/badge/Download-Windows%20EXE-blue?style=for-the-badge\&logo=windows)](../../releases/tag/V3.0.0-SMSBomb)
 
 ---
 
-## 📋 پیش‌نیازها
+## About
 
-- Python 3.7 یا بالاتر
-- pip (مدیریت بسته‌های پایتون)
-- اتصال به اینترنت برای نصب کتابخانه‌ها
+A Python-based project for controlled and authorized testing of concurrent requests.
+
+The project includes basic features for handling concurrent operations, monitoring progress, and managing errors.
 
 ---
 
-## 🔧 نصب کتابخانه‌ها
+## Features
 
-### روش اول: نصب همه کتابخانه‌ها با یک دستور
+* Concurrent task execution using `ThreadPoolExecutor`
+* Progress display with `Rich`
+* Automatic retry handling
+* Network and response error handling
+* Execution statistics and timing information
+* Configurable network settings
+
+---
+
+## Requirements
+
+Before running the Python version, make sure you have:
+
+* Python 3.7 or newer
+* pip
+* Internet connection for installing required dependencies
+
+---
+
+## Installation
+
+Install the required Python libraries:
 
 ```bash
 pip install requests fake-useragent rich urllib3
+```
 
+---
 
-Baray Run kardan dakhel CMD bezam
- 
- python SMS.py
+## Running the Python Version
+
+Open CMD or Terminal in the project directory and run:
+
+```bash
+python SMS.py
+```
+
+---
+
+## Available Versions
+
+| Version | Platform    | Download                                                      |
+| ------- | ----------- | ------------------------------------------------------------- |
+| V1.0.0  | Android     | [Download Android Version](../../releases/tag/V1.0.0-Android) |
+| V3.0.0  | Windows EXE | [Download Windows EXE](../../releases/tag/V3.0.0-SMSBomb)     |
+
+---
+
+## Disclaimer
+
+This project must only be used in environments and services where you have explicit authorization.
+
+The developer is not responsible for unauthorized, harmful, or illegal use of this software.
+
+---
+
+## Support
+
+If you like this project, consider giving the repository a star.
+
+Thank you for your support!
